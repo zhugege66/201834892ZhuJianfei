@@ -1,0 +1,9 @@
+1.data_process.py函数介绍
+pre_process() 对源文件进行预处理
+creat_dict() 生成目标词典
+VSM() 对照词典生成特征词
+2.KNN.py.里面的函数介绍
+IDF() 计算特征词的IDF值
+TF_IDF() 计算TF_IDF值
+Knn() 利用Knn算法计算文件文件相似度
+在统计1000的情况下准确率为0.71.
