@@ -1,0 +1,9 @@
+利用sklearn.metrics中的normalized_mutual_info_score()函数实现对以下聚类方法的评分。其中权重采用TfIdf的加权方式，聚类的方法均采用sklearn的标准聚类库
+，在此基础上进行调参。具体评分如下：
+K-means的准确率: 0.7905588364633279
+AffinityPropagation算法的准确率: 0.7859274713522757
+meanshift算法的准确率: 0.7468492000608158
+SpectralClustering算法的准确率: 0.6303256536571122
+DBSCAN算法的准确率: 0.7125726105692154
+AgglomerativeClustering算法的准确率: 0.7800394104591923
+GaussianMixture算法的准确率: 0.794082592437359
